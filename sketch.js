@@ -11,7 +11,7 @@ function setup() {
     isStatic: true
 }
 var ball_option = {
-  restitution: 0.3
+  restitution: 1.0
 }
   ball=Bodies.circle(200,100,20, ball_option);
   World.add(world,ball);
